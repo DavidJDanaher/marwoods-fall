@@ -1,0 +1,8 @@
+div.container-fluid {
+    background-color: pink;
+    text-align: center;
+}
+
+.col-md-4 {
+    text-align: center;
+}
