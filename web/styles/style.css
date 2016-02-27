@@ -1,6 +1,12 @@
+body {
+  background-image: url('../resources/photos/forest2.jpg');
+  background-size: cover;
+
+}
+
 div.container-fluid {
     height: 700px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
 }
@@ -10,20 +16,19 @@ div.container-fluid {
 }
 
 div.banner {
-    height: 50px;
+    height: 0;
     width: 400px;
-    margin: 100px auto 10px auto;
+    margin: 0 auto 10px auto;
     opacity: 0;
     background-image: url('../resources/photos/banner.png');
     background-size: cover;
 }
 
 div.logo {
-    width: 400px;
-    height: 360px;
-    margin-top: 20px;
+    width: 1200px;
+    height: 1100px;
+    margin: 20px auto;
     opacity: 0;
-    border: 2px solid black;
     background-image: url('../resources/photos/logo-white-sm.png');
     background-size: cover;
 }
