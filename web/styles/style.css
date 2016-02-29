@@ -6,7 +6,7 @@ body {
 
 div.container-fluid {
     height: 700px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
     color: white;
     text-align: center;
 }
@@ -16,11 +16,11 @@ div.container-fluid {
 }
 
 div.banner {
-    height: 0;
-    width: 400px;
+    height: auto;
+    width: 600px;
     margin: 0 auto 10px auto;
     opacity: 0;
-    background-image: url('../resources/photos/banner.png');
+    background-image: url('../resources/photos/banner2.svg');
     background-size: cover;
 }
 
