@@ -28,3 +28,15 @@ div.logo {
     background-image: url('../resources/photos/logo-white-sm.png');
     background-size: cover;
 }
+
+div.album {
+    width: 600px;
+    height: 50px;
+    margin: 20px auto;
+    font-family: ailerons, sans-serif;
+}
+
+@font-face {
+    font-family: 'ailerons';
+    src: url('../resources/fonts/ailerons.ttf');
+}
