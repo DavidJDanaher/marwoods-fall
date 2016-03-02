@@ -1,5 +1,5 @@
 body {
-  /*background-image: url('../resources/photos/forest2.jpg');
+  /*background-image: url('../resources/images/forest2.jpg');
   background-size: cover;*/
     background-color: #000000;
 }
@@ -12,28 +12,37 @@ div.container-fluid {
 }
 
 div.banner {
-    height: 60px;
-    width: 600px;
-    margin: 60px auto;
+    margin: 40px auto 0 auto;
+    height: 100px;
+}
+
+.band-name {
+    width: 500px;
+    height: auto;
     opacity: 1;
-    background-image: url('../resources/photos/banner2.svg');
-    background-size: cover;
 }
 
 div.logo {
-    width: 400px;
-    height: 340px;
-    margin: 100px auto;
-    opacity: 1;
-    background-image: url('../resources/photos/logo-white-sm.png');
-    background-size: cover;
+    margin: 60px auto;
 }
 
-div.album {
+.logo-img {
+    width: 400px;
+    height: auto;
+    opacity: 1;
+    margin-left: 80px;
+}
+
+div.footer {
     width: 600px;
     height: 50px;
-    margin: 20px auto;
+    margin: 0 auto;
+}
+
+h1.album {
     font-family: ailerons, sans-serif;
+    font-size: 5em;
+    text: 'css';
 }
 
 @font-face {
