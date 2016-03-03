@@ -4,6 +4,10 @@ body {
     background-color: #000000;
 }
 
+div.row-1 {
+    height: 700px;
+}
+
 div.container-fluid {
     height: 700px;
     background-color: #000000;
@@ -24,6 +28,7 @@ div.banner {
 
 div.logo {
     margin: 20px auto;
+    z-index: 2;
 }
 
 .logo-img {
@@ -44,6 +49,27 @@ h1.album {
     font-size: 5em;
     text: 'css';
 }
+
+div.row-2 {
+    color: #222222;
+    background-color: white;
+    text-align: center;
+    font-family: ailerons;
+}
+
+div.row-2-header {
+    height: 200px;
+}
+
+h1.row-2-h1 {
+    margin: 20px auto;
+}
+
+div.row-2-col {
+    height: 200px;
+    border: 1px solid black;
+}
+
 
 @font-face {
     font-family: 'ailerons';
