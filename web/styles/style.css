@@ -53,7 +53,7 @@ h1.album {
     font-size: 5em;
 }
 
-h1.release {
+h1.release, h1.row-2-h1 {
     font-size: 4em;
 }
 
@@ -70,13 +70,17 @@ div.row-2-header {
     height: 200px;
 }
 
+div.row-2-col {
+    height: 200px;
+    border: 1px solid black;
+}
+
 h1.row-2-h1 {
     margin: 20px auto;
 }
 
-div.row-2-col {
-    height: 200px;
-    border: 1px solid black;
+a.sign-up-link {
+    color: black;
 }
 
 @font-face {
