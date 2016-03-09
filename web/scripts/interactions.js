@@ -2,23 +2,24 @@ var modal = document.getElementById('modal');
 var openLink = document.getElementById('modal-open');
 var closeBtn = document.getElementById('modal-close');
 
-console.log('Before I was clicked ::' + modal );
-
-
 openLink.onclick = function() {
-    modalDisplay("block");
+    showModal();
 }
 
 closeBtn.onclick = function() {
-    modalDisplay("none");
+    hideModal();
 }
-//
-// window.onclick = function (event) {
-//     if (event.target !== modal) {
-//         modalDisplay('none');
-//     }
-// }
-//
-function modalDisplay(display) {
-    modal.style.display = display;
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        hideModal();
+    }
+}
+
+function showModal() {
+    modal.style.display = "block";
+}
+
+function hideModal() {
+    modal.style.display = "none";
 }

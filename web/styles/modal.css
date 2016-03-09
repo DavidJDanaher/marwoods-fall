@@ -1,12 +1,16 @@
 #modal {
     display: none;
-    /*float: left;*/
-    /*margin: 0 auto;*/
-    z-index: 100;
+    background-color: #000000;
+    opacity: 0.8;
 }
 
 div.sign-up-modal {
     background-color: blue;
-    height: 400px;
+    height: 600px;
 
+}
+
+iframe.modal-frame {
+    width: 100%;
+    height: 90%;
 }
