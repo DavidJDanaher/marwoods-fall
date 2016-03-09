@@ -1,0 +1,12 @@
+#modal {
+    display: none;
+    /*float: left;*/
+    /*margin: 0 auto;*/
+    z-index: 100;
+}
+
+div.sign-up-modal {
+    background-color: blue;
+    height: 400px;
+
+}
