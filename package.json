@@ -1,6 +1,5 @@
 {
     "name": "marwoods-fall",
-
     "dependencies": {
         "bootstrap":"~3.3.6",
         "angular": "1.5.0"
