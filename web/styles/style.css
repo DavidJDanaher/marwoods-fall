@@ -90,6 +90,35 @@ a.sign-up-link:hover {
     text-decoration: none;
 }
 
+#modal {
+    display: none;
+    background-color: #666666;
+    opacity: 0.8;
+}
+
+div.sign-up-modal {
+    height: 600px;
+    margin: 20px;
+}
+
+iframe.modal-frame {
+    width: 100%;
+    height: 450px;
+}
+
+#modal-close {
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    padding: auto;
+    font-size: 2.5em;
+}
+
+#modal-close:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
 @font-face {
     font-family: 'ailerons';
     src: url('../resources/fonts/ailerons.ttf');
