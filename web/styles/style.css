@@ -1,5 +1,6 @@
 body {
     background-color: #000000;
+    font-family: ailerons, sans-serif;
 }
 
 div.row-1 {
@@ -42,7 +43,6 @@ div.footer {
 }
 
 h1.album, h1.release {
-    font-family: ailerons, sans-serif;
     height: auto;
     opacity: 1;
 }
@@ -55,66 +55,60 @@ h1.release, h1.row-2-h1 {
 }
 
 
-div.row-2 {
-    color: #222222;
-    background-color: white;
+div.row-2,
+div.row-3,
+div.row-4 {
+    height: 400px;
     text-align: center;
-    font-family: ailerons;
     visibility: visible;
 }
 
-div.row-2-header {
-    height: 120px;
+div.row-2,
+div.row-4 {
+    color: #222222;
+    background-color: #ffffff;
 }
 
-div.row-2-col {
-    height: 200px;
-    border: 1px solid black;
+div.row-3 {
+    background-color: #000000
 }
 
-h1.row-2-h1 {
-    margin: 20px auto;
+div.row-2-left,
+div.row-2-right {
+    height: 100%;
 }
 
-a.sign-up-link {
-    color: #000000;
+div.row-2-left {
+    border-right: 1px solid black;
+    margin: auto;
 }
 
-a.sign-up-link:hover {
-    color: #ffffff;
-    background-color: #000000;
-    padding: 0 5px 20px 5px;
-    text-decoration: none;
+div.row-2-right {
+    padding: 30px 20px;
 }
 
-#modal {
-    display: none;
-    background-color: #666666;
-    opacity: 0.8;
+h2.signup {
+    margin: 20px 60px;
+    font-size: 2.5em;
 }
 
-div.sign-up-modal {
-    height: 600px;
-    width: 800px;
-    margin: 20px;
+h1.signup {
+    font-size: 4em;
+    margin: 20px auto 50px;
 }
 
 iframe.modal-frame {
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
-#modal-close {
-    width: 140px;
-    height: 70px;
-    margin-top: 20px;
-    padding: 0px 5px 10px 5px;
-    font-size: 3em;
+div.row-3-left {
+    padding: 20px;
 }
 
-#modal-close:hover {
-    color: #ffffff;
-    background-color: #000000;
+div.row-4-center {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 @font-face {
