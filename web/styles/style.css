@@ -106,6 +106,35 @@ div.row-3-left {
     padding: 20px;
 }
 
+ul.music-list {
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+}
+
+li.music-item {
+    display: inline;
+    width: 100px;
+    margin: 30px;
+}
+
+img.music-icon {
+    background-color: #ffffff;
+    padding: 5px;
+    height: 100px;
+}
+
+span.list-text {
+    font-size: auto;
+    width: inherit;
+}
+
+div.row-4-left ,
+div.row-4-center,
+div.row-4-right {
+    height: 100%;
+}
+
 div.row-4-center {
     border-left: 1px solid black;
     border-right: 1px solid black;
