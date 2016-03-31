@@ -46,18 +46,18 @@ h1.album, h1.release {
     height: auto;
     opacity: 1;
 }
+
 h1.album {
     font-size: 5em;
 }
 
-h1.release, h1.row-2-h1 {
+h1.release,
+h1.signup {
     font-size: 4em;
 }
 
-
 div.row-2,
-div.row-3,
-div.row-4 {
+div.row-3 {
     height: 400px;
     text-align: center;
     visibility: visible;
@@ -94,7 +94,6 @@ h2.signup {
 }
 
 h1.signup {
-    font-size: 4em;
     margin: 20px auto 50px;
 }
 
@@ -126,27 +125,49 @@ ul.social-list {
 li.music-item,
 li.social-item {
     display: inline-block;
-    width: 100px;
+    width: 80px;
 }
 
 li.music-item {
-    margin: 0 20px;
+    margin: 0 10px;
+    text-align: left;
 }
 
 li.social-item {
-    margin: 20px;
+    margin: 0 20px;
 }
 
 img.music-icon,
 img.social-icon {
-    background-color: #ffffff;
-    padding: 5px;
     height: 80px;
+    width: 80px;
+}
+
+img.music-icon {
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+img.social-icon {
+    background-color: #ffffff;
+}
+
+img.music-icon:hover {
+    box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+img.social-icon:hover {
+    box-shadow: 0px 0px 5px 5px #000000;
 }
 
 span.list-text {
     font-size: 2em;
     width: inherit;
+}
+
+div.row-4 {
+    height: 210px;
+    text-align: center;
 }
 
 div.row-4-left ,
@@ -161,14 +182,49 @@ div.row-4-center {
 }
 
 h1.row-4-header {
+    margin-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #000000;
 }
 
-div.footer {
+div.contact-us {
+    margin-top: 40px;
+}
+
+a.contact-link {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a.contact-link:hover {
+    padding: 0 5px 5px 5px;
+    background-color: #333333;
+    color: white;
+}
+
+span.at-symbol {
+    font-family: sans-serif;
+}
+
+div.page-footer {
     height: 50px;
     padding: 10px;
-    font-size: 1.5em;
+}
+
+span.footer-text,
+span.copyright-text {
+    padding-bottom: 10px;
+}
+
+span.footer-text {
+    font-size: 18px;
+    letter-spacing: auto;
+}
+
+span.copyright-text {
+    font-size: 24px;
+    letter-spacing: 5px;
 }
 
 @font-face {
