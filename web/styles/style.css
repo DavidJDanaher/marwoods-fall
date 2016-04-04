@@ -56,6 +56,10 @@ h1.signup {
     font-size: 4em;
 }
 
+div.hide-this {
+    visibility: visible;
+}
+
 div.row-2,
 div.row-3 {
     text-align: center;
@@ -79,7 +83,7 @@ div.row-2-right {
 }
 
 div.row-2-left {
-    min-width: 550px;
+    min-width: 400px;
     border-right: 1px solid black;
     margin: auto;
 }
@@ -111,10 +115,8 @@ div.row-3-left {
     padding: 20px;
 }
 
-
-
 div.row-3-right {
-    min-width: 550px;
+    min-width: 400px;
 }
 
 h1.music-list {

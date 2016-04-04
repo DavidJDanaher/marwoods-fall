@@ -6,7 +6,7 @@ var judge = document.getElementsByClassName('word-1');
 var is = document.getElementsByClassName('word-2');
 var coming = document.getElementsByClassName('word-3');
 var release = document.getElementsByClassName('release');
-var row2 = document.getElementsByClassName('row-2');
+var hiddenElements = document.getElementsByClassName('hide-this');
 var footer = document.getElementsByClassName('footer');
 
 var logoNameTL = new TimelineMax();
@@ -21,7 +21,7 @@ function init() {
     TweenMax.set(judge, {opacity:0});
     TweenMax.set(is, {opacity:0});
     TweenMax.set(coming, {opacity:0});
-    TweenMax.set(row2, {visibility: 'hidden'});
+    TweenMax.set(hiddenElements, {visibility: 'hidden'});
     TweenMax.set(release, {height: 0, opacity: 0});
     playMusic();
 }
@@ -38,7 +38,7 @@ textTL.to(judge, 2, {opacity: 1}, t+=4)
         .to(release, 2, {opacity:1}, t)
         .to(release, 1, {opacity:0}, t+=2)
         .set(row1, {height: '500px'}, t+=1)
-        .set(row2, {visibility: 'visible'}, t);
+        .set(hiddenElements, {visibility: 'visible'}, t);
 
 
 //http://stackoverflow.com/questions/9419263/playing-audio-with-javascript
