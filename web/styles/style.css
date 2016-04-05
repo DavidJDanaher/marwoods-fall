@@ -93,7 +93,7 @@ div.row-2-right {
 }
 
 h2.signup {
-    margin: 20px 60px;
+    margin: 80px 60px;
     font-size: 2.5em;
 }
 
@@ -101,9 +101,10 @@ h1.signup {
     margin: 20px auto 50px;
 }
 
-iframe.modal-frame {
+iframe.sign-up-frame {
     width: 100%;
-    height: 100%;
+    max-width: 400px;
+    height: 330px;
 }
 
 div.row-3-left,
@@ -116,7 +117,14 @@ div.row-3-left {
 }
 
 div.row-3-right {
-    min-width: 400px;
+    min-width: 500px;
+}
+
+iframe.soundcloud-player {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    height: 100%;
 }
 
 h1.music-list {
@@ -143,7 +151,7 @@ li.music-item {
 
 li.social-item,
 li.music-item {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 img.music-icon,
@@ -187,7 +195,7 @@ div.row-4-right {
 div.row-4-center {
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
-    min-width: 550px;
+    min-width: 500px;
 }
 
 h1.row-4-header {
@@ -202,12 +210,13 @@ div.contact-us {
 
 a.contact-link {
     color: black;
-    font-size: 24px;
+    font-size: 16px;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 a.contact-link:hover {
-    padding: 0 5px 5px 5px;
+    padding: 5px;
     background-color: #333333;
     color: white;
 }
@@ -216,10 +225,11 @@ span.special-char {
     font-family: sans-serif;
 }
 
-div.page-footer-a,
-div.page-footer-b {
-    height: 50px;
-    padding: 10px;
+div.footer-center,
+div.footer-left,
+div.footer-right  {
+    padding-top: 20px;
+    height: 60px;
 }
 
 div.footer-left,
