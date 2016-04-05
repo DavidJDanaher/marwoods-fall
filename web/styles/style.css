@@ -1,7 +1,6 @@
 body {
-  /*background-image: url('../resources/images/forest2.jpg');
-  background-size: cover;*/
     background-color: #000000;
+    font-family: ailerons, sans-serif;
 }
 
 div.row-1 {
@@ -9,7 +8,6 @@ div.row-1 {
 }
 
 div.container-fluid {
-    /*height: 700px;*/
     background-color: #000000;
     color: white;
     text-align: center;
@@ -45,42 +43,229 @@ div.footer {
 }
 
 h1.album, h1.release {
-    font-family: ailerons, sans-serif;
     height: auto;
     opacity: 1;
 }
+
 h1.album {
     font-size: 5em;
 }
 
-h1.release, h1.row-2-h1 {
+h1.release,
+h1.signup {
     font-size: 4em;
 }
 
-
-div.row-2 {
-    color: #222222;
-    background-color: white;
-    text-align: center;
-    font-family: ailerons;
+div.hide-this {
     visibility: visible;
 }
 
-div.row-2-header {
-    height: 200px;
+div.row-2,
+div.row-3 {
+    text-align: center;
+    visibility: visible;
 }
 
-div.row-2-col {
-    height: 200px;
-    border: 1px solid black;
+div.row-2,
+div.row-4 {
+    color: #222222;
+    background-color: #ffffff;
 }
 
-h1.row-2-h1 {
-    margin: 20px auto;
+div.row-3,
+div.row-5 {
+    background-color: #000000
 }
 
-a.sign-up-link {
+div.row-2-left,
+div.row-2-right {
+    height: 400px;
+}
+
+div.row-2-left {
+    min-width: 400px;
+    border-right: 1px solid black;
+    margin: auto;
+}
+
+div.row-2-right {
+    padding: 30px 20px;
+}
+
+h2.signup {
+    margin: 80px 60px;
+    font-size: 2.5em;
+}
+
+h1.signup {
+    margin: 20px auto 50px;
+}
+
+iframe.sign-up-frame {
+    width: 100%;
+    max-width: 400px;
+    height: 330px;
+}
+
+div.row-3-left,
+div.row-3-right {
+    height: 400px;
+}
+
+div.row-3-left {
+    padding: 20px;
+}
+
+div.row-3-right {
+    min-width: 500px;
+}
+
+iframe.soundcloud-player {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    height: 100%;
+}
+
+h1.music-list {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+ul.music-list,
+ul.social-list {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+
+li.music-item,
+li.social-item {
+    display: inline-block;
+    width: 80px;
+}
+
+li.music-item {
+    text-align: left;
+}
+
+li.social-item,
+li.music-item {
+    margin: 0 15px;
+}
+
+img.music-icon,
+img.social-icon {
+    height: 80px;
+    width: 80px;
+}
+
+img.music-icon {
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+img.social-icon {
+    background-color: #ffffff;
+}
+
+img.music-icon:hover {
+    box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+img.social-icon:hover {
+    box-shadow: 0px 0px 5px 5px #000000;
+}
+
+span.list-text {
+    font-size: 24px;
+    width: inherit;
+}
+
+div.row-4 {
+    text-align: center;
+}
+
+div.row-4-left ,
+div.row-4-center,
+div.row-4-right {
+    height: 210px;
+}
+
+div.row-4-center {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    min-width: 500px;
+}
+
+h1.row-4-header {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+div.contact-us {
+    margin-top: 40px;
+}
+
+a.contact-link {
     color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a.contact-link:hover {
+    padding: 5px;
+    background-color: #333333;
+    color: white;
+}
+
+span.special-char {
+    font-family: sans-serif;
+}
+
+div.footer-center,
+div.footer-left,
+div.footer-right  {
+    padding-top: 20px;
+    height: 60px;
+}
+
+div.footer-left,
+div.footer-right {
+    min-width: 225px;
+}
+
+div.page-footer-b {
+    margin-bottom: 20px;
+}
+
+span.footer-text,
+span.copyright-text {
+    padding-bottom: 10px;
+}
+
+span.footer-text {
+    font-size: 18px;
+    letter-spacing: auto;
+}
+
+a.footer-link {
+    padding: 0 5px 5px 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.footer-link:hover {
+    padding: 0 5px 5px 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+span.copyright-text {
+    font-size: 24px;
+    letter-spacing: 5px;
 }
 
 @font-face {
