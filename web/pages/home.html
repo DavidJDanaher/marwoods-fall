@@ -8,9 +8,10 @@
         <!-- Bootstrap -->
         <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="../styles/style.css" rel="stylesheet"/>
+        <link href="../resources/icons/MWF-icon.png" rel="icon"/>
     </head>
-    <body ng-controller="HomeController as home">
-        <div class="container-fluid">
+    <body>
+        <div class="container-fluid page-container">
             <div class="row row-1">
                 <div class="banner">
                     <img class="band-name" src="../resources/images/banner2.svg"/>
@@ -28,21 +29,21 @@
                 </div>
             </div>
             <div class="row row-2 hide-this">
-                <div class="col-md-8 col-xs-12 row-2-left">
+                <div class="col-md-8 col-xs-12 row-2-left hide-this">
                     <h1 class="signup">Hear the new album first</h1>
                     <h2 class="signup">Sign up to get a free download of our single and early access to the rest of the album</h2>
                 </div>
-                <div class="col-md-4  col-xs-12 row-2-right">
+                <div class="col-md-4  col-xs-12 row-2-right hide-this">
                     <iframe class="sign-up-frame" scrolling="no" frameborder="no" src="sign-up.html"></iframe>
                 </div>
             </div>
             <div class="row row-3 hide-this">
-                <div class="col-md-6 col-xs-12 row-3-left">
+                <div class="col-md-6 col-xs-12 row-3-left hide-this">
                     <iframe class="soundcloud-player" scrolling="no" frameborder="no"
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/4069796&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
                     </iframe>
                 </div>
-                <div class="col-md-6 col-xs-12 row-3-right">
+                <div class="col-md-6 col-xs-12 row-3-right hide-this">
                     <h1 class="music-list">Hear our music</h1>
                     <ul class="music-list">
                         <li class="music-item text">
@@ -87,7 +88,7 @@
                 </div>
             </div>
             <div class="row row-4 hide-this">
-                <div class="col-md-6 col-md-push-3 col-xs-12 row-4-center">
+                <div class="col-md-6 col-md-push-3 col-xs-12 row-4-center hide-this">
                     <h1 class="row-4-header">Connect With Us</h1>
                     <ul class="social-list">
                         <li class="social-item">
@@ -112,13 +113,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 col-md-pull-6 col-xs-6 row-4-left">
+                <div class="col-md-3 col-md-pull-6 col-xs-6 row-4-left hide-this">
                     <h1 class="row-4-header">Book Us</h1>
                     <div class="contact-us">
                         <a class="contact-link" href="mailto:booking@marwoodsfall.com">booking<span class="special-char">@</span>marwoodsfall.com</a>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-6 row-4-right">
+                <div class="col-md-3 col-xs-6 row-4-right hide-this">
                     <h1 class="row-4-header">Contact Us</h1>
                     <div class="contact-us">
                         <a class="contact-link" href="mailto:contact@marwoodsfall.com">contact<span class="special-char">@</span>marwoodsfall.com</a>
@@ -126,23 +127,23 @@
                 </div>
             </div>
             <div class="row page-footer-a hide-this">
-                <div class="col-md-4 col-xs-6 footer-left">
+                <div class="col-md-4 col-xs-6 footer-left hide-this">
                     <span class="footer-text">Icons by <a class="footer-link" href="http://flaticon.com" target="_blank">Flat-icon</a></span>
                 </div>
-                <div class="col-md-4 col-xs-6 footer-center">
+                <div class="col-md-4 col-xs-6 footer-center hide-this">
                     <span class="footer-text">Ailerons font by <a class="footer-link" href="https://www.behance.net/agonz" target="_blank">A. Gonzoles</a></span>
                 </div>
-                <div class="col-md-4 col-xs-12 footer-right">
+                <div class="col-md-4 col-xs-12 footer-right hide-this">
                     <span class="footer-text">Website by <a class="footer-link" href="mailto:david@marwoodsfall.com">David Danaher</a></span>
                 </div>
             </div>
             <div class="row page-footer-b hide-this">
-                <div class="col-md-12 col-xs-12">
+                <div class="col-md-12 col-xs-12 hide-this">
                     <span class="copyright-text"><span class="special-char">&copy;</span> Marwood's Fall, 2016</span>
                 </div>
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-        <!-- <script src="../scripts/animations.js"></script> -->
+        <script src="../scripts/animations.js"></script>
     </body>
 </html>

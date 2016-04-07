@@ -3,6 +3,10 @@ body {
     font-family: ailerons, sans-serif;
 }
 
+div.page-container {
+    height: auto;
+}
+
 div.row-1 {
     height: 700px;
 }
@@ -57,7 +61,7 @@ h1.signup {
 }
 
 div.hide-this {
-    visibility: visible;
+    display: block;
 }
 
 div.row-2,
