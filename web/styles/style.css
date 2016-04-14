@@ -1,17 +1,12 @@
 body {
-    background-color: #000000;
     font-family: ailerons, sans-serif;
-}
-
-div.page-container {
-    height: auto;
 }
 
 div.row-1 {
     height: 700px;
 }
 
-div.container-fluid {
+div.page-container {
     background-color: #000000;
     color: white;
     text-align: center;
@@ -22,7 +17,7 @@ div.banner {
     height: 80px;
 }
 
-.band-name {
+img.band-name {
     width: 500px;
     height: auto;
     opacity: 1;
@@ -67,7 +62,9 @@ div.hide-this {
 div.row-2,
 div.row-3,
 div.row-4,
-div.row-5 {
+div.row-5,
+img.bandsintown-logo,
+img.bandsintown-logo:hover {
     padding: 5px;
 }
 
@@ -100,22 +97,23 @@ div.row-2-left {
 }
 
 div.row-2-right {
-    padding: 30px 10px;
-}
-
-h2.signup {
-    margin: 80px 60px;
-    font-size: 2.5em;
+    padding: 20px 10px;
 }
 
 h1.signup {
     margin: 20px auto 50px;
 }
 
+h2.signup {
+    margin: 80px 60px;
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
 iframe.sign-up-frame {
     width: 100%;
     max-width: 400px;
-    height: 335px;
+    height: 360px;
 }
 
 div.row-3-left,
@@ -123,10 +121,12 @@ div.row-3-right {
     height: 220px;
 }
 
-div.row-3-left {min-width: 500px;}
+div.row-3-left,
+div.row-4-right {
+    min-width: 500px;
+}
 
 div.row-3-right {
-
     border-left: 1px solid #ffffff;
 }
 
@@ -139,12 +139,8 @@ div.row-3-right-wrapper {
     margin-top: 40px;
 }
 
-img.bandsintown-logo,
-img.bandsintown-logo:hover {
-    padding: 5px;
-}
-
-img.bandsintown-logo:hover {
+img.bandsintown-logo:hover,
+img.social-icon:hover {
     box-shadow: 0px 0px 5px 5px #ffffff;
 }
 
@@ -159,15 +155,14 @@ div.row-4-right {
 }
 
 div.row-4-right {
-    min-width: 500px;
     border-left: 1px solid #000000;
 }
 
 iframe.soundcloud-player {
     width: 100%;
+    height: 100%;
     max-width: 500px;
     min-width: 300px;
-    height: 100%;
 }
 
 h1.music-list {
@@ -176,10 +171,15 @@ h1.music-list {
 }
 
 ul.music-list,
-ul.social-list {
+ul.social-list,
+ul.attribution-list {
     list-style: none;
-    margin-top: 30px;
     padding: 0;
+}
+
+ul.music-list,
+ul.social-list {
+    margin-top: 30px;
 }
 
 li.music-item,
@@ -205,19 +205,15 @@ img.social-icon {
 
 img.music-icon {
     padding: 5px;
-    background-color: #ffffff;
 }
 
-img.social-icon {
+img.social-icon,
+img.music-icon {
     background-color: #ffffff;
 }
 
 img.music-icon:hover {
-    box-shadow: 0px 0px 5px 5px #ffffff;
-}
-
-img.social-icon:hover {
-    box-shadow: 0px 0px 5px 5px #ffffff;
+    box-shadow: 0px 0px 5px 5px #000000;
 }
 
 span.list-text {
@@ -242,11 +238,6 @@ div.row-5-center {
     border-right: 1px solid #000000;
 }
 
-ul.attribution-list {
-    list-style: none;
-    margin-left: -40px;
-}
-
 li.attribution-item {
     margin: 10px;
 }
@@ -269,6 +260,10 @@ a.contact-link {
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
+}
+
+a.contact-link,
+span.special-char {
     font-family: sans-serif;
 }
 
@@ -276,10 +271,6 @@ a.contact-link:hover {
     padding: 5px;
     background-color: #ffffff;
     color: #000000;
-}
-
-span.special-char {
-    font-family: sans-serif;
 }
 
 div.page-footer {
