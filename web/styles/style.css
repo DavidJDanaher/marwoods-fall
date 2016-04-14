@@ -1,5 +1,4 @@
 body {
-    background-color: #000000;
     font-family: ailerons, sans-serif;
 }
 
@@ -7,7 +6,7 @@ div.row-1 {
     height: 700px;
 }
 
-div.container-fluid {
+div.page-container {
     background-color: #000000;
     color: white;
     text-align: center;
@@ -18,7 +17,7 @@ div.banner {
     height: 80px;
 }
 
-.band-name {
+img.band-name {
     width: 500px;
     height: auto;
     opacity: 1;
@@ -48,16 +47,25 @@ h1.album, h1.release {
 }
 
 h1.album {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 h1.release,
 h1.signup {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 div.hide-this {
-    visibility: visible;
+    display: block;
+}
+
+div.row-2,
+div.row-3,
+div.row-4,
+div.row-5,
+img.bandsintown-logo,
+img.bandsintown-logo:hover {
+    padding: 5px;
 }
 
 div.row-2,
@@ -83,48 +91,78 @@ div.row-2-right {
 }
 
 div.row-2-left {
-    min-width: 400px;
+    min-width: 520px;
     border-right: 1px solid black;
     margin: auto;
 }
 
 div.row-2-right {
-    padding: 30px 20px;
-}
-
-h2.signup {
-    margin: 80px 60px;
-    font-size: 2.5em;
+    padding: 20px 10px;
 }
 
 h1.signup {
     margin: 20px auto 50px;
 }
 
+h2.signup {
+    margin: 80px 60px;
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
 iframe.sign-up-frame {
     width: 100%;
     max-width: 400px;
-    height: 330px;
+    height: 360px;
 }
 
 div.row-3-left,
 div.row-3-right {
-    height: 400px;
+    height: 220px;
 }
 
-div.row-3-left {
-    padding: 20px;
+div.row-3-left,
+div.row-4-right {
+    min-width: 500px;
 }
 
 div.row-3-right {
-    min-width: 500px;
+    border-left: 1px solid #ffffff;
+}
+
+h1.row-3-header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+}
+
+div.row-3-right-wrapper {
+    margin-top: 40px;
+}
+
+img.bandsintown-logo:hover,
+img.social-icon:hover {
+    box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+img.bandsintown-logo {
+    width: 300px;
+}
+
+div.row-4-left,
+div.row-4-right {
+    height: 400px;
+    padding: 20px;
+}
+
+div.row-4-right {
+    border-left: 1px solid #000000;
 }
 
 iframe.soundcloud-player {
     width: 100%;
+    height: 100%;
     max-width: 500px;
     min-width: 300px;
-    height: 100%;
 }
 
 h1.music-list {
@@ -133,10 +171,15 @@ h1.music-list {
 }
 
 ul.music-list,
-ul.social-list {
+ul.social-list,
+ul.attribution-list {
     list-style: none;
-    margin-top: 30px;
     padding: 0;
+}
+
+ul.music-list,
+ul.social-list {
+    margin-top: 30px;
 }
 
 li.music-item,
@@ -162,18 +205,14 @@ img.social-icon {
 
 img.music-icon {
     padding: 5px;
-    background-color: #ffffff;
 }
 
-img.social-icon {
+img.social-icon,
+img.music-icon {
     background-color: #ffffff;
 }
 
 img.music-icon:hover {
-    box-shadow: 0px 0px 5px 5px #ffffff;
-}
-
-img.social-icon:hover {
     box-shadow: 0px 0px 5px 5px #000000;
 }
 
@@ -182,26 +221,35 @@ span.list-text {
     width: inherit;
 }
 
-div.row-4 {
-    text-align: center;
-}
-
-div.row-4-left ,
-div.row-4-center,
-div.row-4-right {
-    height: 210px;
-}
-
-div.row-4-center {
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
-    min-width: 500px;
-}
-
 h1.row-4-header {
     margin-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #000000;
+}
+
+div.row-5-left,
+div.row-5-center,
+div.row-5-right {
+    height: 200px;
+}
+
+div.row-5-center {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+li.attribution-item {
+    margin: 10px;
+}
+
+span.attribution-text {
+    font-family: sans-serif;
+}
+
+h1.row-5-header {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
 }
 
 div.contact-us {
@@ -209,51 +257,42 @@ div.contact-us {
 }
 
 a.contact-link {
-    color: black;
+    color: #ffffff;
     font-size: 16px;
     text-decoration: none;
+}
+
+a.contact-link,
+span.special-char {
     font-family: sans-serif;
 }
 
 a.contact-link:hover {
     padding: 5px;
-    background-color: #333333;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-span.special-char {
-    font-family: sans-serif;
+div.page-footer {
+    color: #000000;
+    background-color: #ffffff;
+    margin-right: 20px;
+    padding: 10px 0;
 }
 
-div.footer-center,
-div.footer-left,
-div.footer-right  {
-    padding-top: 20px;
-    height: 60px;
-}
-
-div.footer-left,
-div.footer-right {
-    min-width: 225px;
-}
-
-div.page-footer-b {
-    margin-bottom: 20px;
-}
-
-span.footer-text,
+span.attribution-text,
 span.copyright-text {
     padding-bottom: 10px;
 }
 
-span.footer-text {
-    font-size: 18px;
-    letter-spacing: auto;
+span.attribution-text {
+    font-size: 16px;
 }
 
 a.footer-link {
     padding: 0 5px 5px 5px;
     text-decoration: none;
+    font-size: 20px;
     color: #ffffff;
 }
 
