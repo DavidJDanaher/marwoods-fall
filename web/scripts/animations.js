@@ -9,6 +9,7 @@ var release = document.getElementsByClassName('release');
 var hiddenElements = document.getElementsByClassName('hide-this');
 var footer = document.getElementsByClassName('footer');
 var page = document.getElementsByClassName('page-container');
+var releaseRow = document.getElementsByClassName('release-row');
 
 var logoNameTL = new TimelineMax();
 var textTL = new TimelineMax();
@@ -17,13 +18,14 @@ var t = 0;
 init();
 
 function init() {
-    TweenMax.set(logo, {opacity: 0});
-    TweenMax.set(bandName, {opacity: 0});
-    TweenMax.set(judge, {opacity:0});
+    TweenMax.set(logo, {opacity: 0})
+    TweenMax.set(bandName, {opacity: 0})
+    TweenMax.set(judge, {opacity:0})
     TweenMax.set(is, {opacity:0});
     TweenMax.set(coming, {opacity:0});
     TweenMax.set(hiddenElements, {display: 'none'});
-    TweenMax.set(release, {height: 0, opacity: 0});
+    TweenMax.set(release, {height: 0, opacity: 0})
+    TweenMax.set(row1, {height: '700px'});
     playMusic();
 }
 
@@ -39,6 +41,7 @@ textTL.to(judge, 2, {opacity: 1}, t+=4)
         .to(release, 2, {opacity:1}, t)
         .to(release, 1, {opacity:0}, t+=2)
         .set(row1, {height: '500px'}, t+=1)
+        .set(releaseRow, {display: 'none'}, t)
         .set(hiddenElements, {display: 'block'}, t);
 
 
