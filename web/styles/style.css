@@ -2,14 +2,14 @@ body {
     font-family: ailerons, sans-serif;
 }
 
-div.row-1 {
-    height: 700px;
-}
-
 div.page-container {
     background-color: #000000;
     color: white;
     text-align: center;
+}
+
+div.animations-container {
+    margin: 20px 0;
 }
 
 div.banner {
@@ -17,8 +17,178 @@ div.banner {
     height: 80px;
 }
 
+@media (min-width: 550px) {
+    img.band-name {
+        width: 500px;
+    }
+
+    img.logo-img {
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    h1.album {
+        font-size: 4em;
+    }
+
+    h1.release {
+        font-size: 3em;
+    }
+
+    h1.signup {
+        font-size: 4em;
+    }
+
+    h2.signup {
+        font-size: 3em;
+        margin: 60px 60px 20px 60px;
+    }
+
+    li.music-item,
+    li.social-item {
+        display: inline-block;
+    }
+
+    div.contact-us {
+        margin-top: 10px;
+    }
+
+    img.music-icon,
+    img.social-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    div.row-5-left,
+    div.row-5-center {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 549px){
+    img.band-name {
+        width: 300px;
+    }
+
+    img.logo-img {
+        width: 250px;
+        margin-left: 40px;
+    }
+
+    h1.album {
+        font-size: 2.5em;
+    }
+
+    h1.release {
+        font-size: 2em;
+    }
+
+    h1.signup {
+        font-size: 2em;
+    }
+
+    h2.signup {
+        margin: 20px;
+        font-size: 1.5em;
+    }
+
+    div.row-2-left {
+        border-right: none;
+    }
+
+    div.row-3-right {
+        border-left: none;
+        margin-bottom: 20px;
+    }
+
+    div.row-3-right h1.row-3-header {
+        display: none;
+    }
+
+    div.music-list-panel {
+        border-left: none;
+        border-bottom: 1px solid #000000;
+    }
+
+    ul.music-list,
+    ul.social-list {
+        margin: 20px auto;
+    }
+
+    li.music-item,
+    li.social-item {
+        display: inline;
+        margin: 40px;
+    }
+
+    div.contact-us {
+        margin-top: 10px;
+    }
+
+    div.row-5-center {
+        border: none;
+        background-color: white;
+        color: black;
+        margin: 20px auto;
+        padding: 1px;
+        height: 120px;
+    }
+
+    h1.row-5-header {
+        border: none;
+    }
+
+    div.row-5-center a.contact-link {
+        color: #000000;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    div.row-5-center a.contact-link:hover {
+        padding: 5px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    div.page-footer {
+        margin-top: 10px;
+    }
+
+    img.music-icon,
+    img.social-icon {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    div.row-2-left {
+        border-right: 1px solid black;
+    }
+
+    div.row-3-right {
+        border-left: 1px solid #ffffff;
+    }
+
+    div.music-list-panel {
+        border-right: 1px solid #000000;
+    }
+
+    div.row-5-center {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+    }
+
+    h1.row-5-header {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    div.contact-us {
+        margin-top: 40px;
+    }
+}
+
 img.band-name {
-    width: 500px;
     height: auto;
     opacity: 1;
 }
@@ -28,31 +198,19 @@ div.logo {
     z-index: 2;
 }
 
-.logo-img {
-    width: 400px;
+img.logo-img {
     height: auto;
     opacity: 1;
-    margin-left: 80px;
 }
 
 div.footer {
-    width: 600px;
-    height: 50px;
     margin: 0 auto;
 }
 
-h1.album, h1.release {
+h1.album,
+h1.release {
     height: auto;
     opacity: 1;
-}
-
-h1.album {
-    font-size: 4em;
-}
-
-h1.release,
-h1.signup {
-    font-size: 3em;
 }
 
 div.hide-this {
@@ -85,19 +243,12 @@ div.row-5 {
     background-color: #000000
 }
 
-div.row-2-left,
-div.row-2-right {
-    height: 400px;
-}
-
 div.row-2-left {
-    min-width: 520px;
-    border-right: 1px solid black;
     margin: auto;
 }
 
-div.row-2-right {
-    padding: 20px 10px;
+div.sign-up-panel {
+    /*padding: 10px;*/
 }
 
 h1.signup {
@@ -105,29 +256,13 @@ h1.signup {
 }
 
 h2.signup {
-    margin: 80px 60px;
-    font-size: 2.5em;
     line-height: 1.5em;
 }
 
 iframe.sign-up-frame {
     width: 100%;
-    max-width: 400px;
-    height: 360px;
-}
-
-div.row-3-left,
-div.row-3-right {
-    height: 220px;
-}
-
-div.row-3-left,
-div.row-4-right {
-    min-width: 500px;
-}
-
-div.row-3-right {
-    border-left: 1px solid #ffffff;
+    height: 350px;
+    margin-top: 10px;
 }
 
 h1.row-3-header {
@@ -135,8 +270,9 @@ h1.row-3-header {
     border-bottom: 1px solid #ffffff;
 }
 
-div.row-3-right-wrapper {
+div.bandsintown-wrapper {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 img.bandsintown-logo:hover,
@@ -148,21 +284,14 @@ img.bandsintown-logo {
     width: 300px;
 }
 
-div.row-4-left,
-div.row-4-right {
-    height: 400px;
+div.music-player-panel,
+div.music-list-panel {
     padding: 20px;
-}
-
-div.row-4-right {
-    border-left: 1px solid #000000;
 }
 
 iframe.soundcloud-player {
     width: 100%;
-    height: 100%;
-    max-width: 500px;
-    min-width: 300px;
+    height: 300px;
 }
 
 h1.music-list {
@@ -184,7 +313,6 @@ ul.social-list {
 
 li.music-item,
 li.social-item {
-    display: inline-block;
     width: 80px;
 }
 
@@ -195,12 +323,6 @@ li.music-item {
 li.social-item,
 li.music-item {
     margin: 0 15px;
-}
-
-img.music-icon,
-img.social-icon {
-    height: 80px;
-    width: 80px;
 }
 
 img.music-icon {
@@ -227,17 +349,6 @@ h1.row-4-header {
     border-bottom: 1px solid #000000;
 }
 
-div.row-5-left,
-div.row-5-center,
-div.row-5-right {
-    height: 200px;
-}
-
-div.row-5-center {
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
-}
-
 li.attribution-item {
     margin: 10px;
 }
@@ -249,11 +360,6 @@ span.attribution-text {
 h1.row-5-header {
     margin-top: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ffffff;
-}
-
-div.contact-us {
-    margin-top: 40px;
 }
 
 a.contact-link {
@@ -276,7 +382,6 @@ a.contact-link:hover {
 div.page-footer {
     color: #000000;
     background-color: #ffffff;
-    margin-right: 20px;
     padding: 10px 0;
 }
 
@@ -309,5 +414,5 @@ span.copyright-text {
 
 @font-face {
     font-family: 'ailerons';
-    src: url('../resources/fonts/ailerons.ttf');
+    src: url('../resources/fonts/Ailerons.ttf');
 }
