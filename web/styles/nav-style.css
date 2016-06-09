@@ -3,6 +3,10 @@
     font-size: 2.5em;
 }
 
+.nav-wrapper {
+    height: 60px;    
+}
+
 .navbar {
     border-radius: 0;
     color: #F0F0F0;
@@ -13,7 +17,6 @@
 }
 
 .custom-nav-item {
-    height: 60px;
     color: #F0F0F0;
 }
 
