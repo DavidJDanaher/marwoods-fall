@@ -3,16 +3,27 @@ body {
 }
 
 .page-container {
-    background-color: #000000;
-    color: white;
+    background-color: #FFFFFF;
+    color: #000000;
     text-align: center;
 }
 
-.animations-container {
-    margin: 20px 0;
+.judgement-banner {
+    height: 550px;
+    background-image: url('../resources/images/judgement.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.banner {
+.judgement-banner .text {
+  margin-top: 450px;
+  color: #FFFFFF;
+  letter-spacing: 0.4em;
+  font-size: 4em;
+}
+
+/*********/
+.success-banner {
     margin: 30px auto 0 auto;
     height: 80px;
 }
