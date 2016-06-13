@@ -18,8 +18,82 @@ body {
 .judgement-banner .text {
   margin-top: 450px;
   color: #FFFFFF;
-  letter-spacing: 0.4em;
-  font-size: 4em;
+}
+
+.music-info,
+.music-player {
+    padding: 20px;
+}
+
+.music-item {
+    text-align: left;
+}
+
+.social-item,
+.music-item {
+    margin: 0 15px;
+}
+
+@media (max-width: 549px) {
+    .judgement-banner .text {
+        font-size: 2em;
+        letter-spacing: 0.2em;
+    }
+
+    .music-player {
+        border-top: 1px solid #000000;
+    }
+
+    .music-item,
+    .social-item {
+        display: inline;
+        margin: 40px;
+    }
+
+    .music-icon,
+    .social-icon {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media (min-width: 550px) {
+    .judgement-banner .text {
+        font-size: 3em;
+        letter-spacing: 0.3em;
+    }
+
+    .music-player {
+        border-left: 1px solid #000000;
+    }
+
+    .music-item,
+    .social-item {
+        display: inline-block;
+    }
+
+    .music-icon,
+    .social-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .music-item,
+    .social-item {
+        width: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .judgement-banner .text {
+        font-size: 4em;
+        letter-spacing: 0.4em;
+    }
+
+    .music-item,
+    .social-item {
+        width: 80px;
+    }
 }
 
 /*********/
@@ -29,45 +103,8 @@ body {
 }
 
 @media (min-width: 550px) {
-    img.band-name {
-        width: 500px;
-    }
-
-    img.logo-img {
-        width: 400px;
-        margin-left: 80px;
-    }
-
-    h1.album {
-        font-size: 4em;
-    }
-
-    h1.release {
-        font-size: 3em;
-    }
-
-    h1.signup {
-        font-size: 4em;
-    }
-
-    h2.signup {
-        font-size: 3em;
-        margin: 60px 60px 20px 60px;
-    }
-
-    li.music-item,
-    li.social-item {
-        display: inline-block;
-    }
-
     div.contact-us {
         margin-top: 10px;
-    }
-
-    img.music-icon,
-    img.social-icon {
-        height: 80px;
-        width: 80px;
     }
 
     div.row-5-left,
@@ -77,44 +114,6 @@ body {
 }
 
 @media (max-width: 549px){
-    img.band-name {
-        width: 300px;
-    }
-
-    img.logo-img {
-        width: 250px;
-        margin-left: 40px;
-    }
-
-    h1.album {
-        font-size: 2.5em;
-    }
-
-    h1.release {
-        font-size: 2em;
-    }
-
-    h1.signup {
-        font-size: 2em;
-    }
-
-    h2.signup {
-        margin: 20px;
-        font-size: 1.5em;
-    }
-
-    div.row-2-left {
-        border-right: none;
-    }
-
-    div.row-3-right {
-        border-left: none;
-        margin-bottom: 20px;
-    }
-
-    div.row-3-right h1.row-3-header {
-        display: none;
-    }
 
     div.music-list-panel {
         border-left: none;
@@ -124,12 +123,6 @@ body {
     ul.music-list,
     ul.social-list {
         margin: 20px auto;
-    }
-
-    li.music-item,
-    li.social-item {
-        display: inline;
-        margin: 40px;
     }
 
     div.contact-us {
@@ -165,11 +158,7 @@ body {
         margin-top: 10px;
     }
 
-    img.music-icon,
-    img.social-icon {
-        height: 60px;
-        width: 60px;
-    }
+
 }
 
 @media (min-width: 992px) {
@@ -318,19 +307,6 @@ ul.social-list {
     margin-top: 30px;
 }
 
-li.music-item,
-li.social-item {
-    width: 80px;
-}
-
-li.music-item {
-    text-align: left;
-}
-
-li.social-item,
-li.music-item {
-    margin: 0 15px;
-}
 
 img.music-icon {
     padding: 5px;
