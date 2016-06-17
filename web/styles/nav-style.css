@@ -26,11 +26,12 @@
 
 .navbar-default .navbar-nav>li>a:hover {
   color: #FFFFFF;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
 }
-
+/*
 .navbar-default .navbar-nav>li>a:focus {
     color: inherit;
     font-size: 1.1em;
     letter-spacing: 0.1em;
-    text-decoration: underline;
-}
+}*/

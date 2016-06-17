@@ -34,6 +34,23 @@ body {
     margin: 0 15px;
 }
 
+.panel-black {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.bandsintown-wrapper {
+    padding: 20px 40px;
+}
+
+.sign-up-panel {
+    padding: 20px;
+}
+
+.sign-up-frame {
+    border: 1px solid #EEEEEE;
+}
+
 @media (max-width: 549px) {
     .judgement-banner .text {
         font-size: 2em;
@@ -54,6 +71,10 @@ body {
     .social-icon {
         height: 45px;
         width: 45px;
+    }
+
+    .show-dates {
+        border-top: 1px solid #FFFFFF;
     }
 }
 
@@ -82,6 +103,10 @@ body {
     .social-item {
         width: 60px;
     }
+
+    .bandsintown-wrapper {
+        color: #000000;
+    }
 }
 
 @media (min-width: 992px) {
@@ -95,6 +120,9 @@ body {
         width: 80px;
     }
 }
+
+
+
 
 /*********/
 .success-banner {
@@ -162,10 +190,6 @@ body {
 }
 
 @media (min-width: 992px) {
-    div.row-2-left {
-        border-right: 1px solid black;
-    }
-
     div.row-3-right {
         border-left: 1px solid #ffffff;
     }
@@ -213,10 +237,6 @@ h1.release {
     opacity: 1;
 }
 
-div.hide-this {
-    display: block;
-}
-
 div.row-2,
 div.row-3,
 div.row-4,
@@ -241,10 +261,6 @@ div.row-4 {
 div.row-3,
 div.row-5 {
     background-color: #000000
-}
-
-div.row-2-left {
-    margin: auto;
 }
 
 h1.signup {
