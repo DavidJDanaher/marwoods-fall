@@ -8,16 +8,19 @@ body {
     text-align: center;
 }
 
-.judgement-banner {
-    height: 550px;
+/*.judgement-banner {
+    height: 100%;
     background-image: url('../resources/images/judgement.png');
     background-size: cover;
     background-repeat: no-repeat;
-}
+}*/
 
 .judgement-banner .text {
-  margin-top: 450px;
   color: #FFFFFF;
+}
+
+.judgement-photo {
+    width: 100%;
 }
 
 .music-info,
@@ -52,7 +55,12 @@ body {
 }
 
 @media (max-width: 549px) {
+    .judgement-banner {
+        /*height: 250px;*/
+    }
+
     .judgement-banner .text {
+        /*margin-top: 200px;*/
         font-size: 2em;
         letter-spacing: 0.2em;
     }
@@ -79,7 +87,12 @@ body {
 }
 
 @media (min-width: 550px) {
+    .judgement-banner {
+        /*height: 350px;*/
+    }
+
     .judgement-banner .text {
+        /*margin-top: 250px;*/
         font-size: 3em;
         letter-spacing: 0.3em;
     }
@@ -110,7 +123,12 @@ body {
 }
 
 @media (min-width: 992px) {
+    .judgement-banner {
+        /*height: 500px;*/
+    }
+
     .judgement-banner .text {
+        /*margin-top: 400px;*/
         font-size: 4em;
         letter-spacing: 0.4em;
     }
