@@ -48,7 +48,13 @@ body {
 }
 
 .sign-up-frame {
-    border: 1px solid #EEEEEE;
+    border: 3px solid #DDDDDD;
+}
+
+/*About*/
+.bio-text {
+    font-family: Avenir next, sans-serif;
+    text-align: justify;
 }
 
 @media (max-width: 549px) {
