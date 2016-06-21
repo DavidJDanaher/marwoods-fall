@@ -55,9 +55,28 @@ body {
 }
 
 /*About*/
+.about-image {
+    width: 100%;
+}
+
+/*.bio-panel {
+    background-image: url('../resources/images/BottomLounge.jpg');
+    background-size: cover;
+    height: 500px;
+}*/
+
+.bio-panel .text-wrapper {
+    /*margin-top: 300px;*/
+}
+
 .bio-text {
     font-family: Avenir next, sans-serif;
     text-align: justify;
+}
+
+div.music-player-panel {
+    padding: 20px;
+    border-bottom: 1px solid #FFFFFF
 }
 
 @media (max-width: 549px) {
@@ -320,7 +339,6 @@ img.bandsintown-logo {
     width: 300px;
 }
 
-div.music-player-panel,
 div.music-list-panel {
     padding: 20px;
 }
