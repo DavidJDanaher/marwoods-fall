@@ -1,5 +1,6 @@
 body {
     font-family: ailerons, sans-serif;
+    text-align: center;
 }
 
 .page-container {
@@ -55,8 +56,15 @@ body {
 }
 
 /*About*/
-.about-image {
+.photo-fill {
     width: 100%;
+    margin: 20px 0;
+}
+
+.photo-bio {
+    width: 100%;
+    margin: 20px 0;
+
 }
 
 /*.bio-panel {
