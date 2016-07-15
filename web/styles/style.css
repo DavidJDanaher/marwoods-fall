@@ -106,12 +106,19 @@ body {
 
 .bandsintown-wrapper {
     color: #F1F1F1;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
 
+/* Music */
 
+.music-platforms {
+    margin: 20px 0 40px;
+}
+
+.video-panel {
+    padding: 20px;
+}
 
 div.music-player-panel {
     padding: 20px;
