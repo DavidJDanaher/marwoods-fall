@@ -47,6 +47,11 @@ body {
     margin: 10px 0;
 }
 
+.band-pic {
+    background-image: url('../resources/images/Marwood_Backstage.jpg');
+    background-size: fill;
+}
+
 .bio-container-1 {
     background-image: url('../resources/images/HOB-crowd.jpg');
     background-size: cover;
