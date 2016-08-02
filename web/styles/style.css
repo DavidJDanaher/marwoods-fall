@@ -107,9 +107,7 @@ body {
     margin: 40px 0;
 }
 
-
 /* Music */
-
 .music-platforms {
     margin: 20px 0 40px;
 }
@@ -123,7 +121,6 @@ div.music-player-panel {
     border-bottom: 1px solid #FFFFFF
 }
 
-/* Music */
 .flip-panel {
     perspective: 1200px;
     margin-bottom: 30px;
@@ -176,7 +173,6 @@ div.music-player-panel {
 
 .restitution-front {
     background-image: url('../resources/images/Restitution_Cover.jpg');
-
 }
 
 .judgement-front {
@@ -190,17 +186,12 @@ div.music-player-panel {
     background-color: #FFFFFF;
 }
 
+/* Media */
+.photo-album {
+    margin: 20px 0;
+}
+
 @media (max-width: 549px) {
-    .judgement-banner {
-        /*height: 250px;*/
-    }
-
-    .judgement-banner .text {
-        /*margin-top: 200px;*/
-        font-size: 2em;
-        letter-spacing: 0.2em;
-    }
-
     .music-player {
         border-top: 1px solid #000000;
     }
