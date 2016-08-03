@@ -71,6 +71,20 @@ body {
     text-align: justify;
 }
 
+.press-link,
+.press-link:hover {
+    color: #FFFFFF;
+}
+
+.press {
+    margin: 20px;
+}
+
+.press-link:hover {
+    text-decoration: none;
+    letter-spacing: 0.4em;
+}
+
 /* Shows */
 .show-dates-container {
     background-image: url('../resources/images/HOB-matt.jpg');
