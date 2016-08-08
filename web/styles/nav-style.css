@@ -1,9 +1,12 @@
+.nav-row {
+    border-bottom: 1px solid #000000;
+}
+
 .navbar {
     background-color: #FFFFFF;
     border-radius: 0;
     font-size: 28px;
     border: none;
-    border-bottom: 1px solid #000000;
     margin-bottom: 0;
 }
 
