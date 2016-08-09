@@ -247,8 +247,6 @@ body {
 
 .footer-link:hover {
     padding: 0 5px 5px 5px;
-    background-color: #ffffff;
-    color: #000000;
 }
 
 .contact-us,
@@ -295,8 +293,13 @@ body {
 
 .contact-link:hover {
     padding: 5px;
+}
+
+.contact-link:hover,
+.footer-link:hover {
     background-color: #ffffff;
     color: #000000;
+    text-decoration: none;
 }
 
 @media (max-width: 549px) {
@@ -371,9 +374,17 @@ body {
     }
 }
 
+.success {
+    height: 600px;
+}
+
 .success-banner {
     margin: 30px auto 0 auto;
     height: 80px;
+}
+
+.logo-img {
+    margin-left: 80px;
 }
 
 @font-face {
