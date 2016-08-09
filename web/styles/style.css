@@ -3,12 +3,6 @@ body {
     text-align: center;
 }
 
-.page-container {
-    background-color: #FFFFFF;
-    color: #000000;
-    text-align: center;
-}
-
 .judgement-banner .text {
   color: #FFFFFF;
 }
@@ -20,10 +14,6 @@ body {
 .music-info,
 .music-player {
     padding: 20px;
-}
-
-.music-item {
-    text-align: left;
 }
 
 .social-item,
@@ -211,6 +201,23 @@ body {
     margin: 20px 0;
 }
 
+.social {
+    width: 90%;
+    max-width: 500px;
+    height: 420px;
+    margin: 10px auto;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.music-list,
+.social-list {
+    margin-top: 30px;
+    padding-left: 0;
+}
+
 .attribution,
 .contact-us {
     margin-bottom: 10px;
@@ -244,13 +251,52 @@ body {
     color: #000000;
 }
 
-.social-media {
-    margin-bottom: 20px;
+.contact-us,
+.attribution {
+    border-top: solid white 1px;
 }
 
 .contact-us  div,
 .attribution div {
-    margin-bottom: 10px;
+    margin: 20px 0 10px 0;
+}
+
+.music-icon {
+    padding: 5px;
+}
+
+.social-icon,
+.music-icon {
+    background-color: #ffffff;
+}
+
+.music-icon:hover {
+    box-shadow: 0px 0px 5px 5px #000000;
+}
+
+.social-icon:hover {
+    box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+.attribution-text {
+    font-family: sans-serif;
+}
+
+.contact-link {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contact-link,
+.special-char {
+    font-family: sans-serif;
+}
+
+.contact-link:hover {
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 @media (max-width: 549px) {
@@ -258,39 +304,34 @@ body {
         border-top: 1px solid #000000;
     }
 
-    .music-item,
     .social-item {
         display: inline;
-        margin: 40px;
+        margin: 20px;
+    }
+
+    .music-item {
+        margin: 10px;
+        display: inline;
     }
 
     .music-icon,
     .social-icon {
-        height: 45px;
-        width: 45px;
-    }
-
-    .bandsintown-logo {
-        height: 45px;
-        width: auto;
+        height: 40px;
+        width: 40px;
     }
 
     .show-dates {
         border-top: 1px solid #FFFFFF;
     }
+
+    .music-list,
+    .social-list {
+        margin: 20px auto;
+        padding-left: 0;
+    }
 }
 
 @media (min-width: 550px) {
-    .judgement-banner {
-        /*height: 350px;*/
-    }
-
-    .judgement-banner .text {
-        /*margin-top: 250px;*/
-        font-size: 3em;
-        letter-spacing: 0.3em;
-    }
-
     .music-player {
         border-left: 1px solid #000000;
     }
@@ -300,239 +341,40 @@ body {
         display: inline-block;
     }
 
-    .music-icon,
     .social-icon {
         height: 60px;
         width: 60px;
     }
 
-    .music-item,
+    .music-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .music-item {
+        width: 50px;
+    }
+
     .social-item {
         width: 60px;
     }
 
-    .bandsintown-logo {
-        height: 60px;
-        width: auto;
+    .attribution {
+        border-left: 1px solid white;
     }
 }
 
 @media (min-width: 992px) {
-    .judgement-banner {
-        /*height: 500px;*/
-    }
-
-    .judgement-banner .text {
-        /*margin-top: 400px;*/
-        font-size: 4em;
-        letter-spacing: 0.4em;
-    }
-
     .music-item,
     .social-item {
-        width: 80px;
+        width: 100px;
     }
 }
 
-
-
-
-/*********/
 .success-banner {
     margin: 30px auto 0 auto;
     height: 80px;
 }
-
-@media (max-width: 549px){
-
-    div.music-list-panel {
-        border-left: none;
-        border-bottom: 1px solid #000000;
-    }
-
-    ul.music-list,
-    ul.social-list {
-        margin: 20px auto;
-    }
-
-    div.row-5-center {
-        border: none;
-        background-color: white;
-        color: black;
-        margin: 20px auto;
-        padding: 1px;
-        height: 120px;
-    }
-
-    h1.row-5-header {
-        border: none;
-    }
-
-    div.row-5-center a.contact-link {
-        color: #000000;
-        font-size: 16px;
-        text-decoration: none;
-    }
-
-    div.row-5-center a.contact-link:hover {
-        padding: 5px;
-        background-color: #000000;
-        color: #ffffff;
-    }
-
-    div.page-footer {
-        margin-top: 10px;
-    }
-
-
-}
-
-@media (min-width: 992px) {
-    div.row-3-right {
-        border-left: 1px solid #ffffff;
-    }
-
-    div.music-list-panel {
-        border-right: 1px solid #000000;
-    }
-
-    div.row-5-center {
-        border-left: 1px solid #000000;
-        border-right: 1px solid #000000;
-    }
-
-    h1.row-5-header {
-        border-bottom: 1px solid #ffffff;
-    }
-
-}
-
-img.band-name {
-    height: auto;
-    opacity: 1;
-}
-
-div.logo {
-    margin: 10px auto;
-    z-index: 2;
-}
-
-img.logo-img {
-    height: auto;
-    opacity: 1;
-}
-
-div.footer {
-    margin: 0 auto;
-}
-
-h1.album,
-h1.release {
-    height: auto;
-    opacity: 1;
-}
-
-h1.signup {
-    margin: 20px auto 50px;
-}
-
-h2.signup {
-    line-height: 1.5em;
-}
-
-
-
-h1.row-3-header {
-    padding-bottom: 15px;
-    border-bottom: 1px solid #ffffff;
-}
-
-img.social-icon:hover {
-    box-shadow: 0px 0px 5px 5px #ffffff;
-}
-
-div.music-list-panel {
-    padding: 20px;
-}
-
-iframe.soundcloud-player {
-    width: 100%;
-    height: 300px;
-}
-
-h1.music-list {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ffffff;
-}
-
-ul.music-list,
-ul.social-list,
-ul.attribution-list {
-    list-style: none;
-    padding: 0;
-}
-
-ul.music-list,
-ul.social-list {
-    margin-top: 30px;
-}
-
-
-img.music-icon {
-    padding: 5px;
-}
-
-img.social-icon,
-img.music-icon {
-    background-color: #ffffff;
-}
-
-img.music-icon:hover {
-    box-shadow: 0px 0px 5px 5px #000000;
-}
-
-span.list-text {
-    font-size: 24px;
-    width: inherit;
-}
-
-h1.row-4-header {
-    margin-top: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #000000;
-}
-
-li.attribution-item {
-    margin: 10px;
-}
-
-span.attribution-text {
-    font-family: sans-serif;
-}
-
-h1.row-5-header {
-    margin-top: 20px;
-    padding-bottom: 10px;
-}
-
-a.contact-link {
-    color: #ffffff;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-a.contact-link,
-span.special-char {
-    font-family: sans-serif;
-}
-
-a.contact-link:hover {
-    padding: 5px;
-    background-color: #ffffff;
-    color: #000000;
-}
-
-
 
 @font-face {
     font-family: 'ailerons';
