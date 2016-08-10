@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $('.navbar-default').load('http://localhost:8000/web/components/nav.html'); //change to marwood's domain
+    $('.navbar-default').load('http://marwoodsfall.com/web/components/nav.html'); 
 });
 
 $(document).ready(function() {
-    $('.footer').load('http://localhost:8000/web/components/footer.html'); //change to marwood's domain
+    $('.footer').load('http://marwoodsfall.com/web/components/footer.html');
 });
