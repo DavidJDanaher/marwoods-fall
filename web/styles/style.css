@@ -1,415 +1,422 @@
 body {
     font-family: ailerons, sans-serif;
-}
-
-div.page-container {
-    background-color: #000000;
-    color: white;
     text-align: center;
 }
 
-div.animations-container {
+.judgement-banner .text {
+  color: #FFFFFF;
+}
+
+.judgement-photo {
+    width: 100%;
+}
+
+.music-info,
+.music-player {
+    padding: 20px;
+}
+
+.social-item,
+.music-item {
+    margin: 0 15px;
+}
+
+.panel-black {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/* About */
+.photo-fill {
+    width: 100%;
     margin: 20px 0;
 }
 
-div.banner {
-    margin: 30px auto 0 auto;
-    height: 80px;
+.photo-bio {
+    width: 100%;
+    margin: 10px 0;
 }
 
-@media (min-width: 550px) {
-    img.band-name {
-        width: 500px;
-    }
-
-    img.logo-img {
-        width: 400px;
-        margin-left: 80px;
-    }
-
-    h1.album {
-        font-size: 4em;
-    }
-
-    h1.release {
-        font-size: 3em;
-    }
-
-    h1.signup {
-        font-size: 4em;
-    }
-
-    h2.signup {
-        font-size: 3em;
-        margin: 60px 60px 20px 60px;
-    }
-
-    li.music-item,
-    li.social-item {
-        display: inline-block;
-    }
-
-    div.contact-us {
-        margin-top: 10px;
-    }
-
-    img.music-icon,
-    img.social-icon {
-        height: 80px;
-        width: 80px;
-    }
-
-    div.row-5-left,
-    div.row-5-center {
-        margin-bottom: 60px;
-    }
+.bio-container-1 {
+    background-image: url('../resources/images/HOB-crowd.jpg');
+    background-size: cover;
+    background-position: right;
 }
 
-@media (max-width: 549px){
-    img.band-name {
-        width: 300px;
-    }
-
-    img.logo-img {
-        width: 250px;
-        margin-left: 40px;
-    }
-
-    h1.album {
-        font-size: 2.5em;
-    }
-
-    h1.release {
-        font-size: 2em;
-    }
-
-    h1.signup {
-        font-size: 2em;
-    }
-
-    h2.signup {
-        margin: 20px;
-        font-size: 1.5em;
-    }
-
-    div.row-2-left {
-        border-right: none;
-    }
-
-    div.row-3-right {
-        border-left: none;
-        margin-bottom: 20px;
-    }
-
-    div.row-3-right h1.row-3-header {
-        display: none;
-    }
-
-    div.music-list-panel {
-        border-left: none;
-        border-bottom: 1px solid #000000;
-    }
-
-    ul.music-list,
-    ul.social-list {
-        margin: 20px auto;
-    }
-
-    li.music-item,
-    li.social-item {
-        display: inline;
-        margin: 40px;
-    }
-
-    div.contact-us {
-        margin-top: 10px;
-    }
-
-    div.row-5-center {
-        border: none;
-        background-color: white;
-        color: black;
-        margin: 20px auto;
-        padding: 1px;
-        height: 120px;
-    }
-
-    h1.row-5-header {
-        border: none;
-    }
-
-    div.row-5-center a.contact-link {
-        color: #000000;
-        font-size: 16px;
-        text-decoration: none;
-    }
-
-    div.row-5-center a.contact-link:hover {
-        padding: 5px;
-        background-color: #000000;
-        color: #ffffff;
-    }
-
-    div.page-footer {
-        margin-top: 10px;
-    }
-
-    img.music-icon,
-    img.social-icon {
-        height: 60px;
-        width: 60px;
-    }
+.bio-container-2 {
+    background-image: url('../resources/images/HOB-matt.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-@media (min-width: 992px) {
-    div.row-2-left {
-        border-right: 1px solid black;
-    }
-
-    div.row-3-right {
-        border-left: 1px solid #ffffff;
-    }
-
-    div.music-list-panel {
-        border-right: 1px solid #000000;
-    }
-
-    div.row-5-center {
-        border-left: 1px solid #000000;
-        border-right: 1px solid #000000;
-    }
-
-    h1.row-5-header {
-        border-bottom: 1px solid #ffffff;
-    }
-
-    div.contact-us {
-        margin-top: 40px;
-    }
+.bio-panel {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+    color: #FFFFFF;
 }
 
-img.band-name {
-    height: auto;
-    opacity: 1;
+.bio-text {
+    font-family: Avenir next, sans-serif;
+    text-align: justify;
 }
 
-div.logo {
-    margin: 10px auto;
-    z-index: 2;
+.press-link,
+.press-link:hover {
+    color: #FFFFFF;
 }
 
-img.logo-img {
-    height: auto;
-    opacity: 1;
+.press {
+    margin: 20px;
 }
 
-div.footer {
-    margin: 0 auto;
+.press-link:hover {
+    text-decoration: none;
+    letter-spacing: 0.4em;
 }
 
-h1.album,
-h1.release {
-    height: auto;
-    opacity: 1;
+.press-link:visited,
+.press-link:active {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
-div.hide-this {
-    display: block;
+/* Shows */
+.show-dates-container {
+    background-image: url('../resources/images/HOB-matt.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
-div.row-2,
-div.row-3,
-div.row-4,
-div.row-5,
-img.bandsintown-logo,
-img.bandsintown-logo:hover {
-    padding: 5px;
+.bandsintown-wrapper {
+    padding: 20px 40px;
 }
 
-div.row-2,
-div.row-3 {
-    text-align: center;
-    visibility: visible;
+.sign-up-panel {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
 }
 
-div.row-2,
-div.row-4 {
-    color: #222222;
-    background-color: #ffffff;
-}
-
-div.row-3,
-div.row-5 {
-    background-color: #000000
-}
-
-div.row-2-left {
-    margin: auto;
-}
-
-div.sign-up-panel {
-    /*padding: 10px;*/
-}
-
-h1.signup {
-    margin: 20px auto 50px;
-}
-
-h2.signup {
-    line-height: 1.5em;
-}
-
-iframe.sign-up-frame {
+.sign-up-frame {
+    border: 3px solid #DDDDDD;
     width: 100%;
     height: 350px;
     margin-top: 10px;
 }
 
-h1.row-3-header {
-    padding-bottom: 15px;
-    border-bottom: 1px solid #ffffff;
+.show-dates {
+    margin-top: 60px;
+    background-color: rgba(0,0,0,0.3);
+    color: #FFFFFF;
 }
 
-div.bandsintown-wrapper {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.bandsintown-wrapper {
+    color: #F1F1F1;
+    margin: 40px 0;
 }
 
-img.bandsintown-logo:hover,
-img.social-icon:hover {
-    box-shadow: 0px 0px 5px 5px #ffffff;
+/* Music */
+.music-platforms {
+    margin: 20px 0 40px;
 }
 
-img.bandsintown-logo {
-    width: 300px;
-}
-
-div.music-player-panel,
-div.music-list-panel {
+.video-panel {
     padding: 20px;
 }
 
-iframe.soundcloud-player {
-    width: 100%;
-    height: 300px;
+.music-player-panel {
+    padding: 20px;
+    border-bottom: 1px solid #FFFFFF
 }
 
-h1.music-list {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ffffff;
+.flip-panel {
+    perspective: 1200px;
+    margin-bottom: 30px;
 }
 
-ul.music-list,
-ul.social-list,
-ul.attribution-list {
-    list-style: none;
-    padding: 0;
+.flip-panel:hover .flipper,
+.flip-panel.hover .flipper {
+    transform: rotateY(180deg);
 }
 
-ul.music-list,
-ul.social-list {
+@media (max-width: 549px) {
+    .flip-panel,
+    .judgement-front,
+    .restitution-front {
+        width: 300px;
+        height: 300px;
+    }
+
+    .judgement-back,
+    .restitution-back,
+    .album {
+        width: 300px;
+    }
+
+    .album-title {
+        display: none;
+    }
+ }
+
+@media (min-width: 550px) {
+    .flip-panel,
+    .judgement-front,
+    .restitution-front,
+    .judgement-back,
+    .restitution-back {
+        width: 400px;
+        height: 400px;
+    }
+
+    .album {
+        width: 400px;
+    }
+
+}
+
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.judgement-front,
+.restitution-front,
+.judgement-back,
+.restitution-back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+	position: absolute;
+	top: 20px;
+}
+
+.judgement-front,
+.restitution-front {
+    left:0;
+}
+
+.judgement-back,
+.restitution-back {
+    left:0;
+    color: black;
+}
+
+.album {
+    margin: 10px auto;
+}
+
+.judgement-front,
+.restitution-front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+    background-size: cover;
+}
+
+.restitution-front {
+    background-image: url('../resources/images/Restitution_Cover.jpg');
+}
+
+.judgement-front {
+    background-image: url('../resources/images/Judgement_Cover.jpg');
+}
+
+/* back, initially hidden pane */
+.judgement-back,
+.restitution-back {
+	transform: rotateY(180deg);
+    background-color: #FFFFFF;
+}
+
+/* Media */
+.photo-album {
+    margin: 20px 0;
+}
+
+.social {
+    width: 90%;
+    max-width: 500px;
+    height: 420px;
+    margin: 10px auto;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.music-list,
+.social-list {
     margin-top: 30px;
+    padding-left: 0;
 }
 
-li.music-item,
-li.social-item {
-    width: 80px;
+.attribution,
+.contact-us {
+    margin-bottom: 10px;
 }
 
-li.music-item {
-    text-align: left;
-}
-
-li.social-item,
-li.music-item {
-    margin: 0 15px;
-}
-
-img.music-icon {
-    padding: 5px;
-}
-
-img.social-icon,
-img.music-icon {
-    background-color: #ffffff;
-}
-
-img.music-icon:hover {
-    box-shadow: 0px 0px 5px 5px #000000;
-}
-
-span.list-text {
-    font-size: 24px;
-    width: inherit;
-}
-
-h1.row-4-header {
-    margin-top: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #000000;
-}
-
-li.attribution-item {
-    margin: 10px;
-}
-
-span.attribution-text {
-    font-family: sans-serif;
-}
-
-h1.row-5-header {
-    margin-top: 20px;
-    padding-bottom: 10px;
-}
-
-a.contact-link {
-    color: #ffffff;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-a.contact-link,
-span.special-char {
-    font-family: sans-serif;
-}
-
-a.contact-link:hover {
-    padding: 5px;
-    background-color: #ffffff;
-    color: #000000;
-}
-
-div.page-footer {
+.page-footer {
     color: #000000;
     background-color: #ffffff;
     padding: 10px 0;
 }
 
-span.attribution-text,
-span.copyright-text {
+.attribution-text,
+.copyright-text {
     padding-bottom: 10px;
 }
 
-span.attribution-text {
+.attribution-text {
     font-size: 16px;
 }
 
-a.footer-link {
+.footer-link {
     padding: 0 5px 5px 5px;
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
 }
 
-a.footer-link:hover {
+.footer-link:hover {
     padding: 0 5px 5px 5px;
-    background-color: #ffffff;
-    color: #000000;
 }
 
-span.copyright-text {
-    font-size: 24px;
-    letter-spacing: 5px;
+.contact-us,
+.attribution {
+    border-top: solid white 1px;
+}
+
+.contact-us  div,
+.attribution div {
+    margin: 20px 0 10px 0;
+}
+
+.music-icon {
+    padding: 5px;
+}
+
+.social-icon,
+.music-icon {
+    background-color: #ffffff;
+}
+
+.music-icon:hover {
+    box-shadow: 0px 0px 5px 5px #000000;
+}
+
+.social-icon:hover {
+    box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+.attribution-text {
+    font-family: sans-serif;
+}
+
+.contact-link {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contact-link,
+.special-char {
+    font-family: sans-serif;
+}
+
+.contact-link:hover {
+    padding: 5px;
+}
+
+.contact-link:hover,
+.footer-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+}
+
+@media (max-width: 549px) {
+    .music-player {
+        border-top: 1px solid #000000;
+    }
+
+    .music-item,
+    .social-item  {
+        margin: 10px;
+        display: inline;
+    }
+
+    .music-icon,
+    .social-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .show-dates {
+        border-top: 1px solid #FFFFFF;
+    }
+
+    .music-list,
+    .social-list {
+        margin: 20px auto;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 550px) {
+    .music-player {
+        border-left: 1px solid #000000;
+    }
+
+    .music-item,
+    .social-item {
+        display: inline-block;
+    }
+
+    .social-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .music-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .music-item {
+        width: 50px;
+    }
+
+    .social-item {
+        width: 60px;
+    }
+
+    .attribution {
+        border-left: 1px solid white;
+    }
+}
+
+@media (min-width: 992px) {
+    .music-item,
+    .social-item {
+        width: 100px;
+    }
+}
+
+.success {
+    height: 600px;
+}
+
+.success-banner {
+    margin: 30px auto 0 auto;
+    height: 80px;
+}
+
+.logo-img {
+    margin-left: 80px;
 }
 
 @font-face {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="marwood.home">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,94 +11,19 @@
         <link href="../resources/icons/MWF-icon.png" rel="icon"/>
     </head>
     <body>
-        <div class="container-fluid page-container">
-            <div class="row row-1">
-                    <div class="col-md-12 animations-container">
-                    <div class="row">
-                        <div class="col-md-3 col-xs-0">
-                        </div>
-                        <div class="col-md-6 banner">
-                            <img class="band-name" src="../resources/images/banner2.svg"/>
-                        </div>
-                        <div class="col-md-3 col-xs-0">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-xs-0">
-                        </div>
-                        <div class="col-md-6 logo">
-                            <img class="logo-img" src="../resources/images/logo-white-sm.png"/>
-                        </div>
-                        <div class="col-md-3 col-xs-0">
-                        </div>
-                    </div>
-                    <div class="row release-row">
-                        <div class="col-md-3 col-xs-0">
-                        </div>
-                        <div class="col-md-6 footer">
-                            <h1 class="album">
-                                <span class="word-1">Judgement</span>
-                                <span class="word-2">is</span>
-                                <span class="word-3">coming</span>
-                            </h1>
-                            <h1 class="release">May 20, 2016</h1>
-                        </div>
-                        <div class="col-md-3 col-xs-0">
-                        </div>
-                    </div>
-                </div>
+        <nav class="navbar navbar-default">
+        </nav>
+        <div class="row judgement-banner">
+            <div class="col-xs-12">
+            <img class="judgement-photo" src="../resources/images/judgementTitle2.jpg">
             </div>
-            <div class="row row-2 hide-this">
-                <div class="col-md-8 row-2-left hide-this">
-                    <h1 class="signup">Hear the new album first</h1>
-                    <h2 class="signup">Sign up to get a free download of our single and early access to the rest of the album</h2>
-                </div>
-                <div class="col-md-4  sign-up-panel hide-this">
-                    <iframe class="sign-up-frame" frameborder="no" src="sign-up.html"></iframe>
-                </div>
-            </div>
-            <div class="row row-3 hide-this">
-                <div class="col-md-6 row-3-left hide-this">
-                    <h1 class="row-3-header">Connect With Us</h1>
-                    <ul class="social-list">
-                        <li class="social-item">
-                            <a href="https://twitter.com/marwoodsfall" target="_blank">
-                                <img class="social-icon" src="../resources/icons/twitter.png" alt="Twitter"/>
-                            </a>
-                        </li>
-                        <li class="social-item">
-                            <a href="http://facebook.com/MarwoodsFall" target="_blank">
-                                <img class="social-icon" src="../resources/icons/facebook.png" alt="Facebook"/>
-                            </a>
-                        </li>
-                        <li class="social-item">
-                            <a href="http://instagram.com/MarwoodsFall" target="_blank">
-                                <img class="social-icon" src="../resources/icons/instagram.png" alt="Instagram"/>
-                            </a>
-                        </li>
-                        <li class="social-item">
-                            <a href="https://www.youtube.com/channel/UCD73FtilHd0m81aewmUNlTg" target="_blank">
-                                <img class="social-icon" src="../resources/icons/youtube.png" alt="YouTube"/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 row-3-right">
-                    <h1 class="row-3-header">See Us Live</h1>
-                    <div class="bandsintown-wrapper">
-                        <a class="bandsintown" href="http://www.bandsintown.com/Marwood'sFall?came_from=10" target="_blank">
-                            <img class="bandsintown-logo" src="../resources/icons/bandsintown.png" alt=""/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-4 hide-this">
-                <div class="col-md-6 music-list-panel hide-this">
-                    <h1 class="row-4-header">Hear our music</h1>
+        </div>
+        <div class="row">
+            <div class="container-fluid">
+                <div class="col-sm-6 col-xs-12 music-info">
+                    <h1>New EP, Available Now.</h1>
+                    <h2>Get it. Share it.</h2>
                     <ul class="music-list">
-                        <li class="music-item text">
-                            <span class="list-text">Buy:</span>
-                        </li>
                         <li class="music-item">
                             <a href="https://itunes.apple.com/us/album/restitution-ep/id635317336" target="_blank">
                                 <img class="music-icon" src="../resources/icons/itunes.png" alt="iTunes"/>
@@ -116,9 +41,6 @@
                         </li>
                     </ul>
                     <ul class="music-list">
-                        <li class="music-item text">
-                            <span class="list-text">Stream:</span>
-                        </li>
                         <li class="music-item">
                             <a href="https://marwoodsfall.bandcamp.com/releases" target="_blank">
                                 <img class="music-icon" src="../resources/icons/bandcamp.png" alt="Bandcamp"/>
@@ -136,41 +58,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 music-player-panel hide-this">
-                    <iframe class="soundcloud-player" scrolling="no" frameborder="no"
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/4069796&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
+                <div class="col-sm-6 col-xs-12 music-player">
+                    <iframe style="border: 0; width: 90%; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=3813353207/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless>
+                        <a href="http://marwoodsfall.bandcamp.com/album/judgement-is-coming">Judgement Is Coming by Marwood&#39;s Fall</a>
                     </iframe>
                 </div>
             </div>
-            <div class="row row-5 hide-this">
-                <div class="col-md-4 col-sm-6 row-5-left hide-this">
-                    <h1 class="row-5-header">Book Us</h1>
-                    <div class="contact-us">
-                        <a class="contact-link" href="mailto:booking@marwoodsfall.com">booking<span class="special-char">@</span>marwoodsfall.com</a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 row-5-center hide-this">
-                    <h1 class="row-5-header">Contact Us</h1>
-                    <div class="contact-us">
-                        <a class="contact-link" href="mailto:contact@marwoodsfall.com">contact<span class="special-char">@</span>marwoodsfall.com</a>
-                    </div>
-                </div>
-                <div class="col-md-4 row-5-right hide-this">
-                    <h1 class="row-5-header">Attribution</h1>
-                    <ul class="attribution-list">
-                        <li class="attribution-item"><span class="attribution-text">Icons by </span><a class="footer-link" href="http://flaticon.com" target="_blank">Flat-icon</a></li>
-                        <li class="attribution-item"><span class="list-text">Ailerons </span><span class="attribution-text">font by </span><a class="footer-link" href="https://www.behance.net/agonz" target="_blank">A. Gonzales</a></li>
-                        <li class="attribution-item"><span class="attribution-text">Website by </span><a class="footer-link" href="mailto:david@marwoodsfall.com">David Danaher</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row footer-row hide-this">
-                <div class="col-md-12 page-footer hide-this">
-                    <span class="copyright-text"><span class="special-char">&copy;</span>Marwood's Fall - 2016</span>
-                </div>
-            </div>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-        <script src="../scripts/animations.js"></script>
+        <div class="footer">
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../../node_modules/bootstrap/js/transition.js"></script>
+        <script src="../../node_modules/bootstrap/js/collapse.js"></script>
+        <script src="../scripts/components.js"></script>
     </body>
 </html>
