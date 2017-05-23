@@ -1,0 +1,35 @@
+.nav-row {
+    border-bottom: 1px solid #000000;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    border-radius: 0;
+    font-size: 28px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+}
+
+.custom-nav-item {
+    height: 60px;
+}
+
+.custom-nav-item:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    height: 100%;
+    color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FFFFFF;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+}

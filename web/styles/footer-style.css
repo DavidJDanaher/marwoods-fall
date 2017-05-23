@@ -1,0 +1,22 @@
+.page-footer {
+    border-top: 1px solid #000000;
+}
+
+.social-container {
+    margin-bottom: 10px;
+}
+
+.copyright-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 20px 0 40px;
+}
+
+.footer-icon {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.footer-logo {
+    width: 140px;
+}
